@@ -1,4 +1,3 @@
-package com.six_group.ao.configuration;
 
 import java.util.List;
 import java.util.Map;
@@ -18,9 +17,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.StrSubstitutor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.six_group.ao.configuration.annotations.ConfigurationEnvironment;
-import com.six_group.ao.configuration.annotations.ConfigurationSchema;
 
 @ApplicationScoped
 class ConfigurationRepository {
